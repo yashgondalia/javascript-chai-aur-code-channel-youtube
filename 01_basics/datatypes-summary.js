@@ -26,11 +26,37 @@ let myObj = {
 }
 
 const myFunction = function() {
-  console.log("hello world");
+  //console.log("hello world");
   
 }
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof anotherId);
+//console.log(typeof bigNumber);
+//console.log(typeof outsideTemp);
+//console.log(typeof anotherId);
 
 
+//*********************************************************************
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutube = "yashgondalia"
+
+let anotherName = myYoutube
+anotherName  = "yeah"
+
+//console.log(myYoutube);
+
+//console.log(anotherName);
+
+ let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl"
+ }
+ let userTwo = userOne 
+
+ userTwo.email = "yashgondalia@123"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+
+ 
