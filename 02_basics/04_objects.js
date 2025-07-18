@@ -61,7 +61,7 @@ const{courseInstructor: instructor} = course
 
 // console.log(course);
 console.log(instructor);
-// console.log(price);
+
 
 
 
