@@ -15,3 +15,8 @@ for (const key in programming) {
  console.log(programming[key]);
  
 }
+
+const yash = ["spiderman","flash","batman"]
+
+
+
